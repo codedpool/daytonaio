@@ -1,4 +1,4 @@
-# Sample <LREACT-JS>
+# Sample <REACT-JS>
 
 This is a simple calculator built using React-JS
 
