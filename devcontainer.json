@@ -1,5 +1,5 @@
 {
-  "name": "Namespace Community Website Development",
+  "name": "React CAlculator",
   "image": "mcr.microsoft.com/devcontainers/javascript:node",
   "forwardPorts": [
     3000
@@ -18,5 +18,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install && npm install -g tailwindcss"
+  "postCreateCommand": "npm install"
 }
