@@ -25,4 +25,4 @@ This is a simple calculator built using React-JS
 
 ## ✨ Features
 
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+A simple react calculator
