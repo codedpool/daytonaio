@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+  width: 75%; /* Set the width to 75% of the viewport width */
+  height: 75%; /* Set the height to 75% of the viewport height */
+  max-width: 600px; /* Optional: sets a max width */
+  max-height: 600px; /* Optional: sets a max height */
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%; /* Ensures input spans the full width of the container */
+  border: none;
+  padding: 24px;
+  margin: 10px 0;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  color: white;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.equalBtn {
+  background-color: #fb7c14;
+}
+
+.operator {
+  color: #6dee0a;
+}
+
